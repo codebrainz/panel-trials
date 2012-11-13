@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkWindow" id="soma_panel_window">
+    <child>
+      <object class="GtkViewport" id="soma_viewport">
+        <child>
+          <object class="GtkBox" id="soma_main_hbox">
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkButton" id="soma_home_button">
+                <child>
+                  <object class="GtkImage" id="image1">
+                    <property name="stock">gtk-home</property>
+                    <property name="icon-size">1</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSeparator" id="some-home-separator">
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="soma_launcher_hbox">
+                <property name="spacing">6</property>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSeparator" id="soma_launcher_separator">
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="soma_windows_hbox">
+                <property name="spacing">6</property>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSeparator" id="soma_windows_separator">
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox" id="soma_indicators_hbox">
+                <property name="spacing">6</property>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkSeparator" id="soma_indicators_separator">
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="soma_clock_label">
+              </object>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

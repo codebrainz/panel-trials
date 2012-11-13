@@ -1,0 +1,63 @@
+# SomaPanel Git Exclude File
+# ==========================
+
+# Common "built" files
+# --------------------
+*.[ao]
+*.so
+*.la
+*.lo
+*.dylib
+*.lib
+*.dll
+
+# Auto-tools files
+# ----------------
+Makefile
+Makefile.in
+/configure
+/config.*
+/aclocal.m4
+/autom4te.cache/
+/build-aux/
+/libtool
+/m4/
+.deps/
+*.stamp*
+.libs/
+
+# Project-specific files
+# ----------------------
+/src/soma-panel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+# Project-specific
+#
+
+/misc/
